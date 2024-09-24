@@ -69,20 +69,20 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Title = "Olá, tudo certo? 👋"
+  Content = "Bem-vindo ao meu portfolio e site"
 
   [[params.socialIcons]]
-  name = "x"
-  url = "https://x.com/"
+  name = "instagram"
+  url = "https://instagram.com/derossimolina"
 
   [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
+  name = "spotify"
+  url = "https://open.spotify.com/show/2cY9UgY5ai5R7M04iZuGlW?si=98898e09a6e743e6"
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/jeronimo-molina"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
