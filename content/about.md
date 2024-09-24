@@ -1,5 +1,5 @@
 ---
-title: "about"
+title: "Sobre"
 date: 2024-09-24
 hideTitle: true
 ---
