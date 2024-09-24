@@ -1,6 +1,7 @@
 ---
 title: "about"
 date: 2024-09-24
+hideTitle: true
 ---
 
 # Bem-vindo à nossa página "Sobre"
