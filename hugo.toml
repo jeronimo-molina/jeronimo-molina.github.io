@@ -70,7 +70,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Olá, tudo certo? 👋"
-  Content = "Bem-vindo ao meu portfolio e site"
+  Content = "Este é meu site pessoal onde coloco ideias, códigos e reflexões a respeito da vida"
 
   [[params.socialIcons]]
   name = "instagram"
@@ -125,5 +125,26 @@ name = "Tags"
 url = "/tags/"
 weight = 20
 
+[[menu.main]]
+identifier = "about"
+name = "Sobre"
+url = "/about/"
+weight = 30
+
 [markup.highlight]
 noClasses = false
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+  indices = ["tags", "categories", "title"]
+  weight = {
+    tags = 100
+    categories = 80
+    title = 10
+  }
