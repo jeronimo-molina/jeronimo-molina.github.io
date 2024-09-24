@@ -1,6 +1,10 @@
 ---
-title: 2. Structure
-date: 2021-12-18
+date: 2024-02-02T04:14:54-08:00
+draft: false
+params:
+  author: John Smith
+title: Example
+weight: 10
 ---
 
 Understand the structure of the theme's setup to create content for your website.
