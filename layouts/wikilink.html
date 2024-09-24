@@ -1,0 +1,6 @@
+{{ $post := .Page.Site.GetPage "/posts/" (lower (.Get 0 | urlize)) }}
+{{ if $post }}
+  <a href="{{ $post.Permalink }}">{{ $post.Title }}</a>
+{{ else }}
+  <span>{{ .Get 0 }}</span>
+{{ end }}
