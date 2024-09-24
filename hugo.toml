@@ -137,14 +137,3 @@ noClasses = false
 [taxonomies]
   tag = "tags"
   category = "categories"
-
-[related]
-  threshold = 80
-  includeNewer = true
-  toLower = false
-  indices = ["tags", "categories", "title"]
-  weight = {
-    tags = 100
-    categories = 80
-    title = 10
-  }
